@@ -62,8 +62,12 @@ counters.forEach(counter=>{
 
 const enquiryPopup = document.getElementById("enquiryPopup");
 const enquiryButtons = document.querySelectorAll(
-    "#openEnquiryDesktop, #openEnquiryMobile,#openRepairPopup,#openDiagnosticPopup"
-);
+    "#openEnquiryDesktop,\
+    #openEnquiryMobile,\
+    #openEnquiry,\
+    #openRepairPopup,\
+    #openDiagnosticPopup"
+    );
 const closePopup = document.getElementById("closePopup");
 
 const screen1 = document.getElementById("screen1");

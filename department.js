@@ -14,13 +14,13 @@ const departments = {
     products:[
     {
       brand:"Apple",
-      name:"iPhone 16 Pro",
-      variant:"Titanium Black",
-      image:"assets/hero-slider/iphone.png"
+      name:"iPhone 17 Pro",
+      variant:"Cosmic Orange",
+      image:"assets/products/mobiles/iphone.png"
     },
     {
       brand:"Samsung",
-      name:"Galaxy S25 Ultra",
+      name:"Galaxy S26 Ultra",
       variant:"Titanium Silver",
       image:"assets/products/mobiles/samsung.png"
     },
@@ -78,9 +78,9 @@ laptops:{
 
           brand:"Dell",
 
-          name:"XPS 16",
+          name:"2 in 1",
 
-          variant:"Intel Ultra",
+          variant:"Intel ARC Graphics",
 
           image:"assets/products/laptop/dell.png"
 
@@ -90,9 +90,9 @@ laptops:{
 
           brand:"HP",
 
-          name:"Spectre x360",
+          name:"OmniBook Ultra Flip",
 
-          variant:"OLED",
+          variant:"14-inch",
 
           image:"assets/products/laptop/hp.png"
 
@@ -488,6 +488,7 @@ function loadDepartment(departmentName){
 
 });
 
+
   const productContainer = document.getElementById("product-container");
 
   productContainer.innerHTML = "";
@@ -539,6 +540,26 @@ const params = new URLSearchParams(window.location.search);
 const selectedDepartment = params.get("department") || "mobility";
 
 loadDepartment(selectedDepartment);
+window.addEventListener("load", () => {
+
+    if (window.location.hash === "#department-showcase") {
+
+        setTimeout(() => {
+
+            const section = document.getElementById("department-showcase");
+
+            if (section) {
+                section.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            }
+
+        }, 100);
+
+    }
+
+});
 
 // Highlight the correct button
 const activeButton = document.querySelector(

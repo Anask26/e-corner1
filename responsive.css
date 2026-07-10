@@ -1118,7 +1118,7 @@ overflow: hidden;
   }
   .pedestal{
     position:absolute;
-    width:405px;
+    width:415px;
     right:3px;
     top:120px;
     bottom:20px;
@@ -1128,39 +1128,39 @@ overflow: hidden;
     position:absolute;
     width:280px;
     right:20px;
-    top:40px;
+    top:50px;
     z-index:1;
   }
   .phone{
     position:absolute;
   
-    width:180px;
+    width:150px;
   
-    right:230px;
+    right:240px;
   
-    top:110px;
+    top:70px;
   
     z-index:2;
   }
   .watch{
     position:absolute;
   
-    width:210px;
+    width:150px;
   
     right:160px;
   
-    top:85px;
+    top:125px;
   
     z-index:2;
   }
   .earpods{
     position:absolute;
   
-    width:120px;
+    width:140px;
   
-    right:120px;
+    right:90px;
   
-    top: 145px;
+    top: 155px;
   
     z-index:5;
   }
