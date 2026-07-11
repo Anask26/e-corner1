@@ -482,7 +482,11 @@ function loadDepartment(departmentName){
 
     logoContainer.innerHTML += `
 
-        <img src="${logo}" alt="Brand Logo">
+        <img
+            src="${logo}"
+            alt="Brand logo"
+            loading="lazy"
+            decoding="async">
 
     `;
 
@@ -503,7 +507,11 @@ function loadDepartment(departmentName){
           <span class="product-tag">NEW</span>
 
           <div class="product-image">
-              <img src="${product.image}" alt="${product.name}">
+              <img
+                src="${product.image}"
+                alt="${product.brand} ${product.name} available at eCorner"
+                loading="lazy"
+                decoding="async">
           </div>
 
           <div class="product-info">
