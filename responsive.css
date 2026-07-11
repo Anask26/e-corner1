@@ -1118,8 +1118,8 @@ overflow: hidden;
   }
   .pedestal{
     position:absolute;
-    width:415px;
-    right:3px;
+    width:405px;
+    right:-3px;
     top:120px;
     bottom:20px;
     z-index:1;

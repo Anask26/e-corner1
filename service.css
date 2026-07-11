@@ -589,7 +589,7 @@ section.hero{
   transition:max-height .4s ease;
 }
 .device-panel.open{
-  max-height:400px;
+  max-height:800px;
 }
 .device-panel-inner{
   padding:36px 40px 40px;
@@ -835,4 +835,31 @@ section.hero{
 a:focus-visible, button:focus-visible, .device-card:focus-visible{
   outline:2px solid var(--red);
   outline-offset:3px;
+}
+@media (max-width:768px){
+
+  .device-card{
+      padding:18px 16px;
+  }
+
+  .device-card .icon{
+      margin:12px 0;
+      width:28px;
+      height:28px;
+  }
+
+  .device-card h3{
+      font-size:18px;
+      margin-top:6px;
+  }
+
+  .device-card .plus{
+      top:18px;
+      right:16px;
+  }
+
+  .device-card .idx{
+      margin-bottom:8px;
+  }
+
 }
