@@ -183,7 +183,7 @@ tv:{
           brand:"Sony",
           name:"Bravia 4K",
           variant:"Google TV",
-          image:"assets/products/tv/sony.png"
+          image:"assets/products/TV/sony.png"
       },
 
       {
