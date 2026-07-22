@@ -417,21 +417,21 @@ fragrance:{
 
       {
           brand:"Paco Rabanne ",
-          name:"Club De Nuit",
+          name:"One Million",
           variant:"EDP",
           image:"assets/products/fragnance/pacorabanne.png"
       },
 
       {
           brand:"Tom ford ",
-          name:"Black Orchid",
+          name:"Ombre Leather",
           variant:"100ml",
           image:"assets/products/fragnance/tomford.png"
       },
 
       {
           brand:"Versace",
-          name:"Eros",
+          name:"Crystal Noir",
           variant:"100ml",
           image:"assets/products/fragnance/versace.png"
       },
